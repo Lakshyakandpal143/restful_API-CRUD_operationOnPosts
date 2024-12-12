@@ -1,0 +1,118 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e8f4fa;
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main heading style */
+h1 {
+    text-align: center;
+    color: #5c92e3;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Tweet container styling */
+div {
+    background-color: #ffffff;
+    border: 1px solid #d1e3ed;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Username style */
+h4 {
+    font-size: 1.3em;
+    color: #1a73e8;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Content style */
+p {
+    font-size: 1.1em;
+    color: #5f6368;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Link styling */
+a {
+    display: block;
+    padding: 12px 18px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: #1562c1;
+}
+
+button {
+    display: block;
+    padding: 12px 18px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #1562c1;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    div {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    a {
+        padding: 10px 14px;
+        max-width: 130px;
+    }
+}
